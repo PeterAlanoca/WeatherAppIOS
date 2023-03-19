@@ -1,0 +1,69 @@
+PODS:
+  - Alamofire (5.6.4)
+  - GoogleMaps (7.2.0):
+    - GoogleMaps/Maps (= 7.2.0)
+  - GoogleMaps/Base (7.2.0)
+  - GoogleMaps/Maps (7.2.0):
+    - GoogleMaps/Base
+  - GooglePlaces (7.2.0)
+  - GRDB.swift (6.5.0):
+    - GRDB.swift/standard (= 6.5.0)
+  - GRDB.swift/standard (6.5.0)
+  - lottie-ios (3.5.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0):
+    - Moya/Core
+    - RxSwift (~> 6.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxGRDB (3.0.0):
+    - RxGRDB/default (= 3.0.0)
+    - RxSwift (~> 6.0)
+  - RxGRDB/default (3.0.0):
+    - GRDB.swift (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - GoogleMaps
+  - GooglePlaces
+  - GRDB.swift
+  - lottie-ios
+  - Moya/RxSwift
+  - RxCocoa
+  - RxGRDB
+  - RxSwift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GoogleMaps
+    - GooglePlaces
+    - GRDB.swift
+    - lottie-ios
+    - Moya
+    - RxCocoa
+    - RxGRDB
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  GoogleMaps: 65ce5426e2398bb81433c8076f2ab6419c2c5537
+  GooglePlaces: 590dea495d69431454ea92217033c3184995165d
+  GRDB.swift: 390578b9b9c42ebcc03d2b94da520fb46930d6ea
+  lottie-ios: c55158d67d0629a260625cc2ded2052b829e3c3e
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxGRDB: aa1fb609094c74d598fa65e2c6c376405cf431c4
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+
+PODFILE CHECKSUM: 45dc56610ed86a808469e4ff39cd1d428cd96fb1
+
+COCOAPODS: 1.11.2
